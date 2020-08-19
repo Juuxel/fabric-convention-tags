@@ -1,0 +1,5520 @@
+{
+  "sources": {
+    "blockus": {
+      "id": "blockus",
+      "name": "Blockus",
+      "version": "1.6.0.1",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/blockus"
+    },
+    "endreborn": {
+      "id": "endreborn",
+      "name": "End: Rebellion",
+      "version": "1.5",
+      "url": "https://github.com/EleC0TroN/ER"
+    },
+    "adorn": {
+      "id": "adorn",
+      "name": "Adorn",
+      "version": "1.9.1+1.16.1",
+      "url": "https://minecraft.curseforge.com/projects/adorn"
+    },
+    "techreborn": {
+      "id": "techreborn",
+      "name": "Tech Reborn",
+      "version": "3.4.2+build.48",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/techreborn"
+    },
+    "cinderscapes": {
+      "id": "cinderscapes",
+      "name": "Cinderscapes",
+      "version": "1.0.4+build.25",
+      "url": null
+    },
+    "artofalchemy": {
+      "id": "artofalchemy",
+      "name": "Art of Alchemy",
+      "version": "1.0.0-rc2+1.16.1",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/art-of-alchemy"
+    },
+    "flonters": {
+      "id": "flonters",
+      "name": "Flonters",
+      "version": "1.1.0+1.16.1",
+      "url": ""
+    },
+    "expandedstorage": {
+      "id": "expandedstorage",
+      "name": "ExpandedStorage",
+      "version": "5.3.15",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/expanded-storage-fabric"
+    },
+    "packages": {
+      "id": "packages",
+      "name": "Packages",
+      "version": "1.0",
+      "url": "https://highlysuspect.agency"
+    }
+  },
+  "items": [
+    {
+      "id": "stone_rod",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "adorn:stone_rod",
+          "sources": [
+            "adorn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glass_panes",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:glass_pane",
+          "sources": [
+            "adorn"
+          ]
+        },
+        {
+          "value": "minecraft:black_stained_glass_pane",
+          "sources": [
+            "adorn"
+          ]
+        },
+        {
+          "value": "minecraft:white_stained_glass_pane",
+          "sources": [
+            "adorn"
+          ]
+        },
+        {
+          "value": "minecraft:gray_stained_glass_pane",
+          "sources": [
+            "adorn"
+          ]
+        },
+        {
+          "value": "minecraft:light_gray_stained_glass_pane",
+          "sources": [
+            "adorn"
+          ]
+        },
+        {
+          "value": "minecraft:blue_stained_glass_pane",
+          "sources": [
+            "adorn"
+          ]
+        },
+        {
+          "value": "minecraft:light_blue_stained_glass_pane",
+          "sources": [
+            "adorn"
+          ]
+        },
+        {
+          "value": "minecraft:cyan_stained_glass_pane",
+          "sources": [
+            "adorn"
+          ]
+        },
+        {
+          "value": "minecraft:lime_stained_glass_pane",
+          "sources": [
+            "adorn"
+          ]
+        },
+        {
+          "value": "minecraft:green_stained_glass_pane",
+          "sources": [
+            "adorn"
+          ]
+        },
+        {
+          "value": "minecraft:orange_stained_glass_pane",
+          "sources": [
+            "adorn"
+          ]
+        },
+        {
+          "value": "minecraft:yellow_stained_glass_pane",
+          "sources": [
+            "adorn"
+          ]
+        },
+        {
+          "value": "minecraft:red_stained_glass_pane",
+          "sources": [
+            "adorn"
+          ]
+        },
+        {
+          "value": "minecraft:magenta_stained_glass_pane",
+          "sources": [
+            "adorn"
+          ]
+        },
+        {
+          "value": "minecraft:brown_stained_glass_pane",
+          "sources": [
+            "adorn"
+          ]
+        },
+        {
+          "value": "minecraft:purple_stained_glass_pane",
+          "sources": [
+            "adorn"
+          ]
+        },
+        {
+          "value": "minecraft:pink_stained_glass_pane",
+          "sources": [
+            "adorn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uranium_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": []
+    },
+    {
+      "id": "plutonium_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": []
+    },
+    {
+      "id": "iridium_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:iridium_ingot",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tin_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:tin_ingot",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zinc_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:zinc_ingot",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "topazes",
+      "replaced_by": [],
+      "sources": [],
+      "content": []
+    },
+    {
+      "id": "platinum_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:platinum_ingot",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "osmium_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": []
+    },
+    {
+      "id": "thorium_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": []
+    },
+    {
+      "id": "cobalt_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": []
+    },
+    {
+      "id": "concrete_powder",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:white_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:orange_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:magenta_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:light_blue_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:yellow_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:lime_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:pink_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:gray_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:light_gray_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:cyan_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:purple_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:blue_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:brown_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:green_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:red_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:black_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sapphires",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:sapphire_gem",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "peridots",
+      "replaced_by": [],
+      "sources": [],
+      "content": []
+    },
+    {
+      "id": "concrete",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:white_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:orange_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:magenta_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:light_blue_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:yellow_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:lime_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:pink_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:gray_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:light_gray_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:cyan_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:purple_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:blue_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:brown_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:green_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:red_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:black_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "titanium_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:titanium_ingot",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rubies",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:ruby_gem",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silver_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:silver_ingot",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nickel_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:nickel_ingot",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glass",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:white_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:orange_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:magenta_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:light_blue_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:yellow_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:lime_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:pink_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:gray_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:light_gray_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:cyan_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:purple_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:blue_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:brown_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:green_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:red_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:black_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tungsten_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:tungsten_ingot",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "copper_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:copper_ingot",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "palladium_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": []
+    },
+    {
+      "id": "aluminum_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:aluminum_ingot",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:lead_ingot",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amethysts",
+      "replaced_by": [],
+      "sources": [],
+      "content": []
+    },
+    {
+      "id": "marble",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "blockus:marble",
+          "sources": [
+            "blockus"
+          ]
+        },
+        {
+          "value": "blockus:marble_bricks",
+          "sources": [
+            "blockus"
+          ]
+        },
+        {
+          "value": "blockus:marble_pillar",
+          "sources": [
+            "blockus"
+          ]
+        },
+        {
+          "value": "blockus:chiseled_marble_pillar",
+          "sources": [
+            "blockus"
+          ]
+        },
+        {
+          "value": "blockus:chiseled_marble",
+          "sources": [
+            "blockus"
+          ]
+        },
+        {
+          "value": "blockus:marble_circle_pavement",
+          "sources": [
+            "blockus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limestone",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "blockus:limestone",
+          "sources": [
+            "blockus"
+          ]
+        },
+        {
+          "value": "blockus:limestone_bricks",
+          "sources": [
+            "blockus"
+          ]
+        },
+        {
+          "value": "blockus:limestone_pillar",
+          "sources": [
+            "blockus"
+          ]
+        },
+        {
+          "value": "blockus:chiseled_limestone",
+          "sources": [
+            "blockus"
+          ]
+        },
+        {
+          "value": "blockus:limestone_circle_pavement",
+          "sources": [
+            "blockus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quartz",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:quartz",
+          "sources": [
+            "cinderscapes"
+          ]
+        },
+        {
+          "value": "cinderscapes:smoky_quartz",
+          "sources": [
+            "cinderscapes"
+          ]
+        },
+        {
+          "value": "cinderscapes:rose_quartz",
+          "sources": [
+            "cinderscapes"
+          ]
+        },
+        {
+          "value": "cinderscapes:sulfur_quartz",
+          "sources": [
+            "cinderscapes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dark_ashes_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "cinderscapes:ash_pile",
+          "sources": [
+            "cinderscapes"
+          ]
+        },
+        {
+          "value": "techreborn:dark_ashes_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sulfurs",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "cinderscapes:sulfur",
+          "sources": [
+            "cinderscapes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sulfur_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "cinderscapes:sulfur_ore",
+          "sources": [
+            "cinderscapes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tungsten_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:tungsten_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tungsten_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:tungsten_nugget",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tungsten_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:tungsten_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chest",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:chest",
+          "sources": [
+            "expandedstorage"
+          ]
+        },
+        {
+          "value": "minecraft:trapped_chest",
+          "sources": [
+            "expandedstorage"
+          ]
+        },
+        {
+          "value": "expandedstorage:wood_chest",
+          "sources": [
+            "expandedstorage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glass_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:glass",
+          "sources": [
+            "expandedstorage"
+          ]
+        },
+        {
+          "value": "minecraft:white_stained_glass",
+          "sources": [
+            "expandedstorage"
+          ]
+        },
+        {
+          "value": "minecraft:orange_stained_glass",
+          "sources": [
+            "expandedstorage"
+          ]
+        },
+        {
+          "value": "minecraft:magenta_stained_glass",
+          "sources": [
+            "expandedstorage"
+          ]
+        },
+        {
+          "value": "minecraft:light_blue_stained_glass",
+          "sources": [
+            "expandedstorage"
+          ]
+        },
+        {
+          "value": "minecraft:yellow_stained_glass",
+          "sources": [
+            "expandedstorage"
+          ]
+        },
+        {
+          "value": "minecraft:lime_stained_glass",
+          "sources": [
+            "expandedstorage"
+          ]
+        },
+        {
+          "value": "minecraft:pink_stained_glass",
+          "sources": [
+            "expandedstorage"
+          ]
+        },
+        {
+          "value": "minecraft:gray_stained_glass",
+          "sources": [
+            "expandedstorage"
+          ]
+        },
+        {
+          "value": "minecraft:light_gray_stained_glass",
+          "sources": [
+            "expandedstorage"
+          ]
+        },
+        {
+          "value": "minecraft:cyan_stained_glass",
+          "sources": [
+            "expandedstorage"
+          ]
+        },
+        {
+          "value": "minecraft:purple_stained_glass",
+          "sources": [
+            "expandedstorage"
+          ]
+        },
+        {
+          "value": "minecraft:blue_stained_glass",
+          "sources": [
+            "expandedstorage"
+          ]
+        },
+        {
+          "value": "minecraft:brown_stained_glass",
+          "sources": [
+            "expandedstorage"
+          ]
+        },
+        {
+          "value": "minecraft:green_stained_glass",
+          "sources": [
+            "expandedstorage"
+          ]
+        },
+        {
+          "value": "minecraft:red_stained_glass",
+          "sources": [
+            "expandedstorage"
+          ]
+        },
+        {
+          "value": "minecraft:black_stained_glass",
+          "sources": [
+            "expandedstorage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dye_yellow",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:yellow_dye",
+          "sources": [
+            "flonters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dye_white",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:white_dye",
+          "sources": [
+            "flonters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dye_red",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:red_dye",
+          "sources": [
+            "flonters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dye_purple",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:purple_dye",
+          "sources": [
+            "flonters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dye_pink",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:pink_dye",
+          "sources": [
+            "flonters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dye_orange",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:orange_dye",
+          "sources": [
+            "flonters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dye_magenta",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:magenta_dye",
+          "sources": [
+            "flonters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dye_lime",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:lime_dye",
+          "sources": [
+            "flonters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dye_light_gray",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:light_gray_dye",
+          "sources": [
+            "flonters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dye_light_blue",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:light_blue_dye",
+          "sources": [
+            "flonters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dye_green",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:green_dye",
+          "sources": [
+            "flonters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dye_gray",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:gray_dye",
+          "sources": [
+            "flonters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dye_cyan",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:cyan_dye",
+          "sources": [
+            "flonters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dye_brown",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:brown_dye",
+          "sources": [
+            "flonters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dye_blue",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:blue_dye",
+          "sources": [
+            "flonters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dye_black",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:black_dye",
+          "sources": [
+            "flonters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dye_any",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "#c:dye_black",
+          "sources": [
+            "flonters"
+          ]
+        },
+        {
+          "value": "#c:dye_blue",
+          "sources": [
+            "flonters"
+          ]
+        },
+        {
+          "value": "#c:dye_brown",
+          "sources": [
+            "flonters"
+          ]
+        },
+        {
+          "value": "#c:dye_cyan",
+          "sources": [
+            "flonters"
+          ]
+        },
+        {
+          "value": "#c:dye_gray",
+          "sources": [
+            "flonters"
+          ]
+        },
+        {
+          "value": "#c:dye_green",
+          "sources": [
+            "flonters"
+          ]
+        },
+        {
+          "value": "#c:dye_light_blue",
+          "sources": [
+            "flonters"
+          ]
+        },
+        {
+          "value": "#c:dye_light_gray",
+          "sources": [
+            "flonters"
+          ]
+        },
+        {
+          "value": "#c:dye_lime",
+          "sources": [
+            "flonters"
+          ]
+        },
+        {
+          "value": "#c:dye_magenta",
+          "sources": [
+            "flonters"
+          ]
+        },
+        {
+          "value": "#c:dye_orange",
+          "sources": [
+            "flonters"
+          ]
+        },
+        {
+          "value": "#c:dye_pink",
+          "sources": [
+            "flonters"
+          ]
+        },
+        {
+          "value": "#c:dye_purple",
+          "sources": [
+            "flonters"
+          ]
+        },
+        {
+          "value": "#c:dye_red",
+          "sources": [
+            "flonters"
+          ]
+        },
+        {
+          "value": "#c:dye_white",
+          "sources": [
+            "flonters"
+          ]
+        },
+        {
+          "value": "#c:dye_yellow",
+          "sources": [
+            "flonters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wooden_chests",
+      "replaced_by": [
+        "packages",
+        "packages"
+      ],
+      "sources": [
+        "packages",
+        "packages"
+      ],
+      "content": [
+        {
+          "value": "minecraft:chest",
+          "sources": [
+            "packages"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "peridot_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:peridot_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "platinum_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:platinum_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sphalerite_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:sphalerite_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pyrope_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:pyrope_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "peridot_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:peridot_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wood_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:wood_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "obsidian_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:obsidian_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bronze_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:bronze_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clay_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:clay_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "invar_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:invar_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phosphorous_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:phosphorous_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yellow_garnet_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:yellow_garnet_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chrome_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:chrome_ingot",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ashes_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:ashes_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calcite_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:calcite_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tin_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:tin_nugget",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silver_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:silver_nugget",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ender_eye_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:ender_eye_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iridium_reinforced_tungstensteel_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:iridium_reinforced_tungstensteel_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diamond_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:diamond_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "refined_iron_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:refined_iron_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nickel_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:nickel_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emerald_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:emerald_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iridium_alloy_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:iridium_alloy_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calcite_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:calcite_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gold_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:gold_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iron_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:iron_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yellow_garnet_gems",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:yellow_garnet_gem",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ender_eye_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:ender_eye_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:lead_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "platinum_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:platinum_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tungstensteel_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:tungstensteel_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bronze_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:bronze_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nickel_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:nickel_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "titanium_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:titanium_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zinc_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:zinc_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hot_tungstensteel_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:hot_tungstensteel_nugget",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pyrite_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:pyrite_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sapphire_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:sapphire_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clay_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:clay_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aluminum_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:aluminum_nugget",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silver_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:silver_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sapphire_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:sapphire_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grossular_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:grossular_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "endstone_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:endstone_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sheldonite_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:sheldonite_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iridium_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:iridium_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "titanium_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:titanium_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brass_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:brass_ingot",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "copper_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:copper_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chrome_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:chrome_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "granite_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:granite_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coal_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:coal_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "platinum_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:platinum_nugget",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pyrite_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:pyrite_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tungsten_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:tungsten_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "invar_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:invar_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saw_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:saw_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advanced_alloy_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:advanced_alloy_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "redstone_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:redstone_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grossular_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:grossular_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iridium_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:iridium_nugget",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "invar_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:invar_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chrome_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:chrome_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aluminum_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:aluminum_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sodalite_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:sodalite_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aluminum_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:aluminum_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sulfur_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:sulfur_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "titanium_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:titanium_nugget",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "obsidian_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:obsidian_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "platinum_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:platinum_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flint_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:flint_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electrum_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:electrum_nugget",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "peridot_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:peridot_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "andesite_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:andesite_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quartz_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:quartz_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "andesite_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:andesite_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yellow_garnet_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:yellow_garnet_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basalt_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:basalt_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "steel_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:steel_nugget",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "red_garnet_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:red_garnet_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "steel_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:steel_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "andradite_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:andradite_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gold_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:gold_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silicon_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:silicon_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "olivine_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:olivine_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coal_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:coal_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "granite_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:granite_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "steel_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:steel_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lazurite_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:lazurite_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electrum_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:electrum_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silver_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:silver_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uvarovite_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:uvarovite_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silver_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:silver_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ender_pearl_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:ender_pearl_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advanced_alloy_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:advanced_alloy_ingot",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sphalerite_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:sphalerite_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "magnesium_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:magnesium_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ruby_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:ruby_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electrum_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:electrum_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yellow_garnet_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:yellow_garnet_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "andradite_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:andradite_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emerald_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:emerald_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tin_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:tin_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bauxite_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:bauxite_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diamond_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:diamond_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ruby_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:ruby_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sodalite_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:sodalite_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zinc_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:zinc_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emerald_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:emerald_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sapphire_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:sapphire_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "charcoal_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:charcoal_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tungsten_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:tungsten_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marble_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:marble_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nickel_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:nickel_nugget",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iron_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:iron_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "peridot_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:peridot_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tungstensteel_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:tungstensteel_ingot",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "copper_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:copper_nugget",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "titanium_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:titanium_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pyrite_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:pyrite_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gold_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:gold_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basalt",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:basalt",
+          "sources": [
+            "techreborn"
+          ]
+        },
+        {
+          "value": "minecraft:polished_basalt",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sphalerite_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:sphalerite_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iron_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:iron_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "invar_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:invar_ingot",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marble_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:marble_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "peridot_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:peridot_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brass_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:brass_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iridium_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:iridium_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mixed_metal_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:mixed_metal_ingot",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ruby_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:ruby_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chrome_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:chrome_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ender_pearl_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:ender_pearl_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chrome_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:chrome_nugget",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sulfur_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:sulfur_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emerald_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:emerald_nugget",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tin_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:tin_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netherrack_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:netherrack_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "obsidian_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:obsidian_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:lead_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "copper_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:copper_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cinnabar_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:cinnabar_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quartz_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:quartz_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "steel_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:steel_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ruby_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:ruby_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saw_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:saw_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "charcoal_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:charcoal_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lazurite_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:lazurite_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quartz_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:quartz_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:lead_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "manganese_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:manganese_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tungsten_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:tungsten_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cinnabar_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:cinnabar_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diorite_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:diorite_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "olivine_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:olivine_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bronze_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:bronze_nugget",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bronze_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:bronze_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lazurite_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:lazurite_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zinc_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:zinc_nugget",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "red_garnet_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:red_garnet_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basalt_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:basalt_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "endstone_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:endstone_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "red_garnet_gems",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:red_garnet_gem",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zinc_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:zinc_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "galena_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:galena_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aluminum_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:aluminum_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flint_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:flint_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iridium_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:iridium_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "carbon_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:carbon_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electrum_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:electrum_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ashes_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:ashes_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:lead_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "steel_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:steel_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dark_ashes_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:dark_ashes_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ruby_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:ruby_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tin_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:tin_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "galena_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:galena_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "invar_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:invar_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "almandine_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:almandine_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spessartine_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:spessartine_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silver_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:silver_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chrome_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:chrome_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "invar_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:invar_nugget",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brass_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:brass_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glowstone_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:glowstone_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sapphire_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:sapphire_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diorite_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:diorite_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saltpeter_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:saltpeter_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "magnesium_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:magnesium_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "refined_iron_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:refined_iron_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bauxite_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:bauxite_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "refined_iron_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:refined_iron_nugget",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "manganese_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:manganese_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diamond_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:diamond_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:lead_nugget",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nickel_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:nickel_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bronze_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:bronze_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "red_garnet_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:red_garnet_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saltpeter_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:saltpeter_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phosphorous_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:phosphorous_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cinnabar_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:cinnabar_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tin_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:tin_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lapis_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:lapis_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spessartine_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:spessartine_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "copper_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:copper_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brass_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:brass_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electrum_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:electrum_ingot",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tin_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:tin_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nickel_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:nickel_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sodalite_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:sodalite_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zinc_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:zinc_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silver_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:silver_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "copper_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:copper_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "red_garnet_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:red_garnet_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iridium_alloy_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:iridium_alloy_ingot",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:lead_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "platinum_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:platinum_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "peridot_gems",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:peridot_gem",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electrum_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:electrum_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "steel_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:steel_ingot",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "magnalium_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:magnalium_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coal_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:coal_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aluminum_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:aluminum_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bronze_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:bronze_ingot",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "titanium_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:titanium_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "refined_iron_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:refined_iron_ingot",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "copper_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:copper_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diamond_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:diamond_nugget",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "galena_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:galena_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "redstone_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:redstone_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netherrack_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:netherrack_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brass_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:brass_nugget",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sapphire_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:sapphire_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hot_tungstensteel_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:hot_tungstensteel_ingot",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bauxite_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:bauxite_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tungstensteel_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:tungstensteel_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iridium_reinforced_stone_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:iridium_reinforced_stone_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brass_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:brass_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "almandine_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:almandine_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yellow_garnet_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:yellow_garnet_plate",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uvarovite_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:uvarovite_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pyrope_small_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:pyrope_small_dust",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tungstensteel_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:tungstensteel_nugget",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "concrete_powder",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:white_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:orange_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:magenta_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:light_blue_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:yellow_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:lime_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:pink_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:gray_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:light_gray_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:cyan_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:purple_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:blue_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:brown_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:green_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:red_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:black_concrete_powder",
+          "sources": [
+            "artofalchemy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "concrete",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:white_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:orange_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:magenta_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:light_blue_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:yellow_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:lime_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:pink_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:gray_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:light_gray_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:cyan_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:purple_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:blue_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:brown_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:green_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:red_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:black_concrete",
+          "sources": [
+            "artofalchemy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glass",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:white_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:orange_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:magenta_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:light_blue_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:yellow_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:lime_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:pink_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:gray_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:light_gray_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:cyan_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:purple_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:blue_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:brown_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:green_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:red_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        },
+        {
+          "value": "minecraft:black_stained_glass",
+          "sources": [
+            "artofalchemy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marble",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "blockus:marble",
+          "sources": [
+            "blockus"
+          ]
+        },
+        {
+          "value": "blockus:marble_bricks",
+          "sources": [
+            "blockus"
+          ]
+        },
+        {
+          "value": "blockus:marble_pillar",
+          "sources": [
+            "blockus"
+          ]
+        },
+        {
+          "value": "blockus:chiseled_marble_pillar",
+          "sources": [
+            "blockus"
+          ]
+        },
+        {
+          "value": "blockus:chiseled_marble",
+          "sources": [
+            "blockus"
+          ]
+        },
+        {
+          "value": "blockus:marble_circle_pavement",
+          "sources": [
+            "blockus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limestone",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "blockus:limestone",
+          "sources": [
+            "blockus"
+          ]
+        },
+        {
+          "value": "blockus:limestone_bricks",
+          "sources": [
+            "blockus"
+          ]
+        },
+        {
+          "value": "blockus:limestone_pillar",
+          "sources": [
+            "blockus"
+          ]
+        },
+        {
+          "value": "blockus:chiseled_limestone",
+          "sources": [
+            "blockus"
+          ]
+        },
+        {
+          "value": "blockus:limestone_circle_pavement",
+          "sources": [
+            "blockus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tungsten_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:tungsten_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tungsten_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:tungsten_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sphalerite_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:sphalerite_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "peridot_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:peridot_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "invar_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:invar_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iridium_reinforced_tungstensteel_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:iridium_reinforced_tungstensteel_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nickel_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:nickel_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:lead_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sapphire_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:sapphire_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sapphire_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:sapphire_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sheldonite_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:sheldonite_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "titanium_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:titanium_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yellow_garnet_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:yellow_garnet_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electrum_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:electrum_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silver_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:silver_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ruby_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:ruby_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tin_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:tin_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bauxite_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:bauxite_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sodalite_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:sodalite_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pyrite_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:pyrite_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basalt",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:basalt",
+          "sources": [
+            "techreborn"
+          ]
+        },
+        {
+          "value": "minecraft:polished_basalt",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "peridot_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:peridot_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iridium_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:iridium_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tin_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:tin_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "copper_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:copper_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cinnabar_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:cinnabar_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "steel_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:steel_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ruby_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:ruby_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zinc_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:zinc_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "galena_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:galena_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aluminum_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:aluminum_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iridium_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:iridium_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silver_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:silver_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chrome_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:chrome_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "refined_iron_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:refined_iron_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bronze_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:bronze_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "red_garnet_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:red_garnet_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brass_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:brass_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "copper_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:copper_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:lead_ore",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "platinum_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:platinum_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tungstensteel_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:tungstensteel_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iridium_reinforced_stone_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "techreborn:iridium_reinforced_stone_storage_block",
+          "sources": [
+            "techreborn"
+          ]
+        }
+      ]
+    }
+  ],
+  "fluids": []
+}
