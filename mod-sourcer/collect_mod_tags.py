@@ -67,7 +67,7 @@ def run():
     if not build_dir.exists():
         build_dir.mkdir()
 
-    mod_folder = Path('C:/Users/Sebastian/Twitch/Minecraft/Instances/All of Fabric 3/mods')
+    mod_folder = Path('mods')
 
     if Path("tags.json").exists():
         with open('tags.json', 'rt') as fh:
