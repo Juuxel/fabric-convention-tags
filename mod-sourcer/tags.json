@@ -1,33 +1,51 @@
 {
   "sources": {
+    "flonters": {
+      "id": "flonters",
+      "name": "Flonters",
+      "version": "1.1.0+1.16.1",
+      "url": ""
+    },
+    "indrev": {
+      "id": "indrev",
+      "name": "Industrial Revolution",
+      "version": "1.4.9-BETA",
+      "url": "https://github.com/StupPlayer/Industrial-Revolution"
+    },
+    "expandedstorage": {
+      "id": "expandedstorage",
+      "name": "ExpandedStorage",
+      "version": "5.3.15",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/expanded-storage-fabric"
+    },
     "blockus": {
       "id": "blockus",
       "name": "Blockus",
-      "version": "1.6.0.1",
+      "version": "1.6.2",
       "url": "https://www.curseforge.com/minecraft/mc-mods/blockus"
     },
     "endreborn": {
       "id": "endreborn",
       "name": "End: Rebellion",
-      "version": "1.5",
+      "version": "1.6",
       "url": "https://github.com/EleC0TroN/ER"
     },
     "adorn": {
       "id": "adorn",
       "name": "Adorn",
-      "version": "1.9.1+1.16.1",
+      "version": "1.10.0+1.16.1",
       "url": "https://minecraft.curseforge.com/projects/adorn"
     },
     "techreborn": {
       "id": "techreborn",
       "name": "Tech Reborn",
-      "version": "3.4.2+build.48",
+      "version": "3.4.5+build.88",
       "url": "https://www.curseforge.com/minecraft/mc-mods/techreborn"
     },
     "cinderscapes": {
       "id": "cinderscapes",
       "name": "Cinderscapes",
-      "version": "1.0.4+build.25",
+      "version": "1.0.7+build.43-1.16.1",
       "url": null
     },
     "artofalchemy": {
@@ -36,23 +54,17 @@
       "version": "1.0.0-rc2+1.16.1",
       "url": "https://www.curseforge.com/minecraft/mc-mods/art-of-alchemy"
     },
-    "flonters": {
-      "id": "flonters",
-      "name": "Flonters",
-      "version": "1.1.0+1.16.1",
-      "url": ""
-    },
-    "expandedstorage": {
-      "id": "expandedstorage",
-      "name": "ExpandedStorage",
-      "version": "5.3.15",
-      "url": "https://www.curseforge.com/minecraft/mc-mods/expanded-storage-fabric"
-    },
     "packages": {
       "id": "packages",
       "name": "Packages",
       "version": "1.0",
       "url": "https://highlysuspect.agency"
+    },
+    "astromine": {
+      "id": "astromine",
+      "name": "Astromine",
+      "version": "1.5.2",
+      "url": null
     }
   },
   "items": [
@@ -209,6 +221,18 @@
       "sources": [],
       "content": [
         {
+          "value": "astromine:tin_ingot",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "indrev:tin_ingot",
+          "sources": [
+            "indrev"
+          ]
+        },
+        {
           "value": "techreborn:tin_ingot",
           "sources": [
             "techreborn"
@@ -270,104 +294,7 @@
       "id": "concrete_powder",
       "replaced_by": [],
       "sources": [],
-      "content": [
-        {
-          "value": "minecraft:white_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:orange_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:magenta_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:light_blue_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:yellow_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:lime_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:pink_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:gray_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:light_gray_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:cyan_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:purple_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:blue_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:brown_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:green_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:red_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:black_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        }
-      ]
+      "content": []
     },
     {
       "id": "sapphires",
@@ -392,104 +319,7 @@
       "id": "concrete",
       "replaced_by": [],
       "sources": [],
-      "content": [
-        {
-          "value": "minecraft:white_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:orange_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:magenta_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:light_blue_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:yellow_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:lime_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:pink_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:gray_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:light_gray_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:cyan_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:purple_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:blue_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:brown_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:green_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:red_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:black_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        }
-      ]
+      "content": []
     },
     {
       "id": "titanium_ingots",
@@ -523,6 +353,12 @@
       "sources": [],
       "content": [
         {
+          "value": "astromine:silver_ingot",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
           "value": "techreborn:silver_ingot",
           "sources": [
             "techreborn"
@@ -547,116 +383,19 @@
       "id": "glass",
       "replaced_by": [],
       "sources": [],
-      "content": [
-        {
-          "value": "minecraft:glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:white_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:orange_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:magenta_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:light_blue_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:yellow_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:lime_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:pink_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:gray_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:light_gray_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:cyan_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:purple_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:blue_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:brown_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:green_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:red_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:black_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        }
-      ]
+      "content": []
     },
     {
       "id": "tungsten_ingots",
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "endreborn:tungsten_ingot",
+          "sources": [
+            "endreborn"
+          ]
+        },
         {
           "value": "techreborn:tungsten_ingot",
           "sources": [
@@ -670,6 +409,18 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "astromine:copper_ingot",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "indrev:copper_ingot",
+          "sources": [
+            "indrev"
+          ]
+        },
         {
           "value": "techreborn:copper_ingot",
           "sources": [
@@ -702,6 +453,12 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "astromine:lead_ingot",
+          "sources": [
+            "astromine"
+          ]
+        },
         {
           "value": "techreborn:lead_ingot",
           "sources": [
@@ -804,6 +561,7 @@
         {
           "value": "minecraft:quartz",
           "sources": [
+            "astromine",
             "cinderscapes"
           ]
         },
@@ -878,6 +636,12 @@
       "sources": [],
       "content": [
         {
+          "value": "endreborn:end_tungsten_ore",
+          "sources": [
+            "endreborn"
+          ]
+        },
+        {
           "value": "techreborn:tungsten_ore",
           "sources": [
             "techreborn"
@@ -891,6 +655,12 @@
       "sources": [],
       "content": [
         {
+          "value": "endreborn:tungsten_nugget",
+          "sources": [
+            "endreborn"
+          ]
+        },
+        {
           "value": "techreborn:tungsten_nugget",
           "sources": [
             "techreborn"
@@ -903,6 +673,12 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "endreborn:tungsten_block",
+          "sources": [
+            "endreborn"
+          ]
+        },
         {
           "value": "techreborn:tungsten_storage_block",
           "sources": [
@@ -1576,6 +1352,12 @@
       "sources": [],
       "content": [
         {
+          "value": "astromine:tin_nugget",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
           "value": "techreborn:tin_nugget",
           "sources": [
             "techreborn"
@@ -1588,6 +1370,12 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "astromine:silver_nugget",
+          "sources": [
+            "astromine"
+          ]
+        },
         {
           "value": "techreborn:silver_nugget",
           "sources": [
@@ -1667,6 +1455,12 @@
       "sources": [],
       "content": [
         {
+          "value": "astromine:emerald_dust",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
           "value": "techreborn:emerald_dust",
           "sources": [
             "techreborn"
@@ -1705,6 +1499,12 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "astromine:gold_plates",
+          "sources": [
+            "astromine"
+          ]
+        },
         {
           "value": "techreborn:gold_plate",
           "sources": [
@@ -1758,6 +1558,12 @@
       "sources": [],
       "content": [
         {
+          "value": "astromine:lead_block",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
           "value": "techreborn:lead_storage_block",
           "sources": [
             "techreborn"
@@ -1796,6 +1602,12 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "astromine:bronze_plates",
+          "sources": [
+            "astromine"
+          ]
+        },
         {
           "value": "techreborn:bronze_plate",
           "sources": [
@@ -1862,6 +1674,12 @@
       "sources": [],
       "content": [
         {
+          "value": "#c:fools_gold_dusts",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
           "value": "techreborn:pyrite_dust",
           "sources": [
             "techreborn"
@@ -1913,6 +1731,12 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "astromine:silver_dust",
+          "sources": [
+            "astromine"
+          ]
+        },
         {
           "value": "techreborn:silver_dust",
           "sources": [
@@ -2017,6 +1841,18 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "astromine:copper_dust",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "indrev:copper_dust",
+          "sources": [
+            "indrev"
+          ]
+        },
         {
           "value": "techreborn:copper_dust",
           "sources": [
@@ -2317,6 +2153,12 @@
       "sources": [],
       "content": [
         {
+          "value": "astromine:electrum_nugget",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
           "value": "techreborn:electrum_nugget",
           "sources": [
             "techreborn"
@@ -2408,6 +2250,12 @@
       "sources": [],
       "content": [
         {
+          "value": "astromine:steel_nugget",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
           "value": "techreborn:steel_nugget",
           "sources": [
             "techreborn"
@@ -2459,6 +2307,18 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "astromine:gold_dust",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "indrev:gold_dust",
+          "sources": [
+            "indrev"
+          ]
+        },
         {
           "value": "techreborn:gold_dust",
           "sources": [
@@ -2525,6 +2385,18 @@
       "sources": [],
       "content": [
         {
+          "value": "astromine:steel_plates",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "indrev:steel_plate",
+          "sources": [
+            "indrev"
+          ]
+        },
+        {
           "value": "techreborn:steel_plate",
           "sources": [
             "techreborn"
@@ -2551,6 +2423,12 @@
       "sources": [],
       "content": [
         {
+          "value": "astromine:electrum_block",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
           "value": "techreborn:electrum_storage_block",
           "sources": [
             "techreborn"
@@ -2563,6 +2441,18 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "astromine:silver_ore",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "astromine:asteroid_silver_ore",
+          "sources": [
+            "astromine"
+          ]
+        },
         {
           "value": "techreborn:silver_ore",
           "sources": [
@@ -2589,6 +2479,12 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "astromine:silver_plates",
+          "sources": [
+            "astromine"
+          ]
+        },
         {
           "value": "techreborn:silver_plate",
           "sources": [
@@ -2668,6 +2564,12 @@
       "sources": [],
       "content": [
         {
+          "value": "astromine:electrum_dust",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
           "value": "techreborn:electrum_dust",
           "sources": [
             "techreborn"
@@ -2719,6 +2621,24 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "astromine:tin_ore",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "astromine:asteroid_tin_ore",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "indrev:tin_ore",
+          "sources": [
+            "indrev"
+          ]
+        },
         {
           "value": "techreborn:tin_ore",
           "sources": [
@@ -2876,6 +2796,18 @@
       "sources": [],
       "content": [
         {
+          "value": "astromine:iron_plates",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "indrev:iron_plate",
+          "sources": [
+            "indrev"
+          ]
+        },
+        {
           "value": "techreborn:iron_plate",
           "sources": [
             "techreborn"
@@ -2914,6 +2846,12 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "astromine:copper_nugget",
+          "sources": [
+            "astromine"
+          ]
+        },
         {
           "value": "techreborn:copper_nugget",
           "sources": [
@@ -2998,6 +2936,18 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "astromine:iron_dust",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "indrev:iron_dust",
+          "sources": [
+            "indrev"
+          ]
+        },
         {
           "value": "techreborn:iron_dust",
           "sources": [
@@ -3155,6 +3105,12 @@
       "sources": [],
       "content": [
         {
+          "value": "#c:emerald_fragments",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
           "value": "techreborn:emerald_nugget",
           "sources": [
             "techreborn"
@@ -3167,6 +3123,12 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "astromine:tin_block",
+          "sources": [
+            "astromine"
+          ]
+        },
         {
           "value": "techreborn:tin_storage_block",
           "sources": [
@@ -3220,6 +3182,24 @@
       "sources": [],
       "content": [
         {
+          "value": "astromine:copper_ore",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "astromine:asteroid_copper_ore",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "indrev:copper_ore",
+          "sources": [
+            "indrev"
+          ]
+        },
+        {
           "value": "techreborn:copper_ore",
           "sources": [
             "techreborn"
@@ -3258,6 +3238,12 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "astromine:steel_block",
+          "sources": [
+            "astromine"
+          ]
+        },
         {
           "value": "techreborn:steel_storage_block",
           "sources": [
@@ -3298,6 +3284,12 @@
       "sources": [],
       "content": [
         {
+          "value": "astromine:charcoal_dust",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
           "value": "techreborn:charcoal_dust",
           "sources": [
             "techreborn"
@@ -3324,6 +3316,12 @@
       "sources": [],
       "content": [
         {
+          "value": "astromine:quartz_dust",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
           "value": "techreborn:quartz_dust",
           "sources": [
             "techreborn"
@@ -3336,6 +3334,12 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "astromine:lead_dust",
+          "sources": [
+            "astromine"
+          ]
+        },
         {
           "value": "techreborn:lead_dust",
           "sources": [
@@ -3415,6 +3419,12 @@
       "sources": [],
       "content": [
         {
+          "value": "astromine:bronze_nugget",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
           "value": "techreborn:bronze_nugget",
           "sources": [
             "techreborn"
@@ -3427,6 +3437,12 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "astromine:bronze_dust",
+          "sources": [
+            "astromine"
+          ]
+        },
         {
           "value": "techreborn:bronze_dust",
           "sources": [
@@ -3597,6 +3613,12 @@
       "sources": [],
       "content": [
         {
+          "value": "astromine:electrum_plates",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
           "value": "techreborn:electrum_plate",
           "sources": [
             "techreborn"
@@ -3623,6 +3645,12 @@
       "sources": [],
       "content": [
         {
+          "value": "astromine:lead_plates",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
           "value": "techreborn:lead_plate",
           "sources": [
             "techreborn"
@@ -3635,6 +3663,18 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "astromine:steel_dust",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "indrev:steel_dust",
+          "sources": [
+            "indrev"
+          ]
+        },
         {
           "value": "techreborn:steel_dust",
           "sources": [
@@ -3674,6 +3714,18 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "astromine:tin_dust",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "indrev:tin_dust",
+          "sources": [
+            "indrev"
+          ]
+        },
         {
           "value": "techreborn:tin_dust",
           "sources": [
@@ -3739,6 +3791,12 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "astromine:silver_block",
+          "sources": [
+            "astromine"
+          ]
+        },
         {
           "value": "techreborn:silver_storage_block",
           "sources": [
@@ -3909,6 +3967,18 @@
       "sources": [],
       "content": [
         {
+          "value": "astromine:diamond_dust",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "indrev:diamond_dust",
+          "sources": [
+            "indrev"
+          ]
+        },
+        {
           "value": "techreborn:diamond_dust",
           "sources": [
             "techreborn"
@@ -3921,6 +3991,12 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "astromine:lead_nugget",
+          "sources": [
+            "astromine"
+          ]
+        },
         {
           "value": "techreborn:lead_nugget",
           "sources": [
@@ -3947,6 +4023,12 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "astromine:bronze_block",
+          "sources": [
+            "astromine"
+          ]
+        },
         {
           "value": "techreborn:bronze_storage_block",
           "sources": [
@@ -4013,6 +4095,18 @@
       "sources": [],
       "content": [
         {
+          "value": "astromine:tin_plates",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "indrev:tin_plate",
+          "sources": [
+            "indrev"
+          ]
+        },
+        {
           "value": "techreborn:tin_plate",
           "sources": [
             "techreborn"
@@ -4077,6 +4171,12 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "astromine:electrum_ingot",
+          "sources": [
+            "astromine"
+          ]
+        },
         {
           "value": "techreborn:electrum_ingot",
           "sources": [
@@ -4156,6 +4256,12 @@
       "sources": [],
       "content": [
         {
+          "value": "astromine:copper_block",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
           "value": "techreborn:copper_storage_block",
           "sources": [
             "techreborn"
@@ -4194,6 +4300,18 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "astromine:lead_ore",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "astromine:asteroid_lead_ore",
+          "sources": [
+            "astromine"
+          ]
+        },
         {
           "value": "techreborn:lead_ore",
           "sources": [
@@ -4247,6 +4365,18 @@
       "sources": [],
       "content": [
         {
+          "value": "astromine:steel_ingot",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "indrev:steel_ingot",
+          "sources": [
+            "indrev"
+          ]
+        },
+        {
           "value": "techreborn:steel_ingot",
           "sources": [
             "techreborn"
@@ -4273,6 +4403,18 @@
       "sources": [],
       "content": [
         {
+          "value": "astromine:coal_dust",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "indrev:coal_dust",
+          "sources": [
+            "indrev"
+          ]
+        },
+        {
           "value": "techreborn:coal_dust",
           "sources": [
             "techreborn"
@@ -4298,6 +4440,12 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "astromine:bronze_ingot",
+          "sources": [
+            "astromine"
+          ]
+        },
         {
           "value": "techreborn:bronze_ingot",
           "sources": [
@@ -4338,6 +4486,18 @@
       "sources": [],
       "content": [
         {
+          "value": "astromine:copper_plates",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "indrev:copper_plate",
+          "sources": [
+            "indrev"
+          ]
+        },
+        {
           "value": "techreborn:copper_plate",
           "sources": [
             "techreborn"
@@ -4350,6 +4510,12 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "#c:diamond_fragments",
+          "sources": [
+            "astromine"
+          ]
+        },
         {
           "value": "techreborn:diamond_nugget",
           "sources": [
@@ -4552,6 +4718,1464 @@
           ]
         }
       ]
+    },
+    {
+      "id": "wood_sticks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:stick",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "univite_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:univite_plates",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "univite_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:univite_nugget",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "univite_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:univite_ingot",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "univite_gears",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:univite_gear",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "univite_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:univite_dust",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "univite_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:univite_block",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tin_wires",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:tin_wire",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tin_gears",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:tin_gear",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tin_clusters",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:asteroid_tin_cluster",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sterling_silver_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:sterling_silver_plates",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sterling_silver_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:sterling_silver_nugget",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sterling_silver_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:sterling_silver_ingot",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sterling_silver_gears",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:sterling_silver_gear",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sterling_silver_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:sterling_silver_dust",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sterling_silver_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:sterling_silver_block",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stellum_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:stellum_plates",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stellum_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:asteroid_stellum_ore",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stellum_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:stellum_nugget",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stellum_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:stellum_ingot",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stellum_gears",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:stellum_gear",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stellum_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:stellum_dust",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stellum_clusters",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:asteroid_stellum_cluster",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stellum_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:stellum_block",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "steel_wires",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:steel_wire",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "steel_gears",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:steel_gear",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silver_wires",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:silver_wire",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silver_gears",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:silver_gear",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silver_clusters",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:asteroid_silver_cluster",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rose_gold_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:rose_gold_plates",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rose_gold_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:rose_gold_nugget",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rose_gold_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:rose_gold_ingot",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rose_gold_gears",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:rose_gold_gear",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rose_gold_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:rose_gold_dust",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rose_gold_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:rose_gold_block",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "redstone_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:redstone_ore",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "astromine:asteroid_redstone_ore",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "redstone_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:redstone",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "redstone_clusters",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:asteroid_redstone_cluster",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quartz_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:nether_quartz_ore",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quartz_fragments",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:quartz_fragment",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pyrite_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "#c:fools_gold_plates",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pyrite_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "#c:fools_gold_nuggets",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pyrite_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "#c:fools_gold_ingots",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pyrite_gears",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "#c:fools_gold_gears",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pyrite_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "#c:fools_gold_blocks",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netherite_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:netherite_plates",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netherite_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:netherite_nugget",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netherite_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:netherite_ingot",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netherite_gears",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:netherite_gear",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "netherite_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:netherite_dust",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metite_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:metite_plates",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metite_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:meteor_metite_ore",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "astromine:asteroid_metite_ore",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metite_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:metite_nugget",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metite_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:metite_ingot",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metite_gears",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:metite_gear",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metite_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:metite_dust",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metite_clusters",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:meteor_metite_cluster",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "astromine:asteroid_metite_cluster",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metite_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:metite_block",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead_wires",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:lead_wire",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead_gears",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:lead_gear",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead_clusters",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:asteroid_lead_cluster",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lapis_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:lapis_ore",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "astromine:asteroid_lapis_ore",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lapis_lazulis",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:lapis_lazuli",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lapis_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:lapis_dust",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lapis_clusters",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:asteroid_lapis_cluster",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iron_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:iron_ore",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "astromine:asteroid_iron_ore",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iron_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:iron_ingot",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iron_gears",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:iron_gear",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iron_clusters",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:asteroid_iron_cluster",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gold_wires",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:gold_wire",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gold_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "#minecraft:gold_ores",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "astromine:asteroid_gold_ore",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gold_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:gold_ingot",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gold_gears",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:gold_gear",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gold_clusters",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:asteroid_gold_cluster",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "galaxium_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:asteroid_galaxium_ore",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "galaxium_fragments",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:galaxium_fragment",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "galaxium_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:galaxium_dust",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "galaxium_clusters",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:asteroid_galaxium_cluster",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "galaxium_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:galaxium_block",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "galaxiums",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:galaxium",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fools_gold_plates",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:fools_gold_plates",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fools_gold_nuggets",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:fools_gold_nugget",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fools_gold_ingots",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:fools_gold_ingot",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fools_gold_gears",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:fools_gold_gear",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fools_gold_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:fools_gold_dust",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fools_gold_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:fools_gold_block",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emerald_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:emerald_ore",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "astromine:asteroid_emerald_ore",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emerald_fragments",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:emerald_fragment",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emerald_clusters",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:asteroid_emerald_cluster",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emeralds",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:emerald",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electrum_wires",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:electrum_wire",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electrum_gears",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:electrum_gear",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diamond_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:diamond_ore",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "astromine:asteroid_diamond_ore",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diamond_fragments",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:diamond_fragment",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diamond_clusters",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:asteroid_diamond_cluster",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diamonds",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:diamond",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "copper_wires",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:copper_wire",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "copper_gears",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:copper_gear",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "copper_clusters",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:asteroid_copper_cluster",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coal_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "minecraft:coal_ore",
+          "sources": [
+            "astromine"
+          ]
+        },
+        {
+          "value": "astromine:asteroid_coal_ore",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coal_clusters",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:asteroid_coal_cluster",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bronze_gears",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:bronze_gear",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asterite_ores",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:asteroid_asterite_ore",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asterite_fragments",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:asterite_fragment",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asterite_dusts",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:asterite_dust",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asterite_clusters",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:asteroid_asterite_cluster",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asterite_blocks",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:asterite_block",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asterites",
+      "replaced_by": [],
+      "sources": [],
+      "content": [
+        {
+          "value": "astromine:asterite",
+          "sources": [
+            "astromine"
+          ]
+        }
+      ]
     }
   ],
   "blocks": [
@@ -4559,316 +6183,19 @@
       "id": "concrete_powder",
       "replaced_by": [],
       "sources": [],
-      "content": [
-        {
-          "value": "minecraft:white_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:orange_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:magenta_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:light_blue_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:yellow_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:lime_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:pink_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:gray_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:light_gray_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:cyan_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:purple_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:blue_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:brown_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:green_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:red_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:black_concrete_powder",
-          "sources": [
-            "artofalchemy"
-          ]
-        }
-      ]
+      "content": []
     },
     {
       "id": "concrete",
       "replaced_by": [],
       "sources": [],
-      "content": [
-        {
-          "value": "minecraft:white_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:orange_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:magenta_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:light_blue_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:yellow_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:lime_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:pink_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:gray_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:light_gray_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:cyan_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:purple_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:blue_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:brown_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:green_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:red_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:black_concrete",
-          "sources": [
-            "artofalchemy"
-          ]
-        }
-      ]
+      "content": []
     },
     {
       "id": "glass",
       "replaced_by": [],
       "sources": [],
-      "content": [
-        {
-          "value": "minecraft:glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:white_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:orange_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:magenta_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:light_blue_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:yellow_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:lime_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:pink_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:gray_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:light_gray_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:cyan_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:purple_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:blue_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:brown_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:green_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:red_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        },
-        {
-          "value": "minecraft:black_stained_glass",
-          "sources": [
-            "artofalchemy"
-          ]
-        }
-      ]
+      "content": []
     },
     {
       "id": "marble",
@@ -4956,6 +6283,12 @@
       "sources": [],
       "content": [
         {
+          "value": "endreborn:end_tungsten_ore",
+          "sources": [
+            "endreborn"
+          ]
+        },
+        {
           "value": "techreborn:tungsten_ore",
           "sources": [
             "techreborn"
@@ -4968,6 +6301,12 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "endreborn:tungsten_block",
+          "sources": [
+            "endreborn"
+          ]
+        },
         {
           "value": "techreborn:tungsten_storage_block",
           "sources": [
@@ -5164,6 +6503,12 @@
       "sources": [],
       "content": [
         {
+          "value": "indrev:tin_ore",
+          "sources": [
+            "indrev"
+          ]
+        },
+        {
           "value": "techreborn:tin_ore",
           "sources": [
             "techreborn"
@@ -5273,6 +6618,12 @@
       "replaced_by": [],
       "sources": [],
       "content": [
+        {
+          "value": "indrev:copper_ore",
+          "sources": [
+            "indrev"
+          ]
+        },
         {
           "value": "techreborn:copper_ore",
           "sources": [
