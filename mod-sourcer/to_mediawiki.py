@@ -26,22 +26,22 @@ def generate_page(sources, tags: List[Dict], out):
 
 with open('tags.txt', 'wt') as out:
     print(file=out)
-    print('====== Item Tags ======', file=out)
+    print('===== Item Tags =====', file=out)
     print(file=out)
     generate_page(root['sources'], root['items'], out)
 
     print(file=out)
-    print('====== Block Tags ======', file=out)
+    print('===== Block Tags =====', file=out)
     print(file=out)
     generate_page(root['sources'], root['blocks'], out)
 
     print(file=out)
-    print('====== Fluid Tags ======', file=out)
+    print('===== Fluid Tags =====', file=out)
     print(file=out)
     generate_page(root['sources'], root['fluids'], out)
 
     print(file=out)
-    print('====== Sources ======', file=out)
+    print('===== Sources =====', file=out)
     print(file=out)
     print("^ Mod ID ^ Name ^ Version ^ URL ^", file=out)
 
