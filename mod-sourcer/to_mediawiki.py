@@ -41,6 +41,16 @@ with open('tags.txt', 'wt') as out:
     generate_page(root['sources'], root['fluids'], out)
 
     print(file=out)
+    print('===== Entity Types Tags =====', file=out)
+    print(file=out)
+    generate_page(root['sources'], root['entity_types'], out)
+
+    print(file=out)
+    print('===== Game Events Tags =====', file=out)
+    print(file=out)
+    generate_page(root['sources'], root['game_events'], out)
+
+    print(file=out)
     print('===== Sources =====', file=out)
     print(file=out)
     print("^ Mod ID ^ Name ^ Version ^ URL ^", file=out)

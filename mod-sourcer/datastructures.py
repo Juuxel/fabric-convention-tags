@@ -103,6 +103,8 @@ class TagContainer:
     items: Dict[str, Tag]
     blocks: Dict[str, Tag]
     fluids: Dict[str, Tag]
+    entity_types: Dict[str, Tag]
+    game_events: Dict[str, Tag]
 
     def __init__(self) -> None:
         super().__init__()
@@ -110,6 +112,8 @@ class TagContainer:
         self.items = {}
         self.blocks = {}
         self.fluids = {}
+        self.entity_types = {}
+        self.game_events = {}
 
     def add_tag(self, tag_type: str, source: TagSource, tag_id: str, tag_json: Dict):
         self.sources.add(source)
@@ -126,7 +130,9 @@ class TagContainer:
             'sources': {source.mod_id: source.to_json() for source in self.sources},
             'items': [x.to_json() for x in self.items.values()],
             'blocks': [x.to_json() for x in self.blocks.values()],
-            'fluids': [x.to_json() for x in self.fluids.values()]
+            'fluids': [x.to_json() for x in self.fluids.values()],
+            'entity_types': [x.to_json() for x in self.entity_types.values()],
+            'game_events': [x.to_json() for x in self.game_events.values()]
         }
 
     @classmethod
@@ -136,10 +142,14 @@ class TagContainer:
         sources = {s.mod_id: s for s in tags.sources}
 
         def load_tags(key):
+            if key not in json:
+                json[key] = []
             tag_list = [Tag.from_json(x, sources) for x in json[key]]
             return {t.id: t for t in tag_list}
 
         tags.items = load_tags('items')
         tags.blocks = load_tags('blocks')
         tags.fluids = load_tags('fluids')
+        tags.entity_types = load_tags('entity_types')
+        tags.game_events = load_tags('game_events')
         return tags
