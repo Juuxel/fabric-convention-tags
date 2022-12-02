@@ -1,6 +1,18 @@
 from typing import Dict, List, Set
 
 
+def unique(list):
+    # initialize a null list
+    unique_list = []
+    
+    # traverse for all elements
+    for x in list:
+        # check if exists in unique_list or not
+        if x not in unique_list:
+            unique_list.append(x)
+    
+    return list
+
 class TagSource:
     """
     Describes a potential source for tags, which is almost always a Mod or Vanilla Minecraft.
@@ -44,7 +56,7 @@ class TagEntry:
     def to_json(self):
         return {
             'value': self.value,
-            'sources': [s.mod_id for s in self.sources]
+            'sources': unique([s.mod_id for s in self.sources])
         }
 
     @classmethod
@@ -85,8 +97,8 @@ class Tag:
     def to_json(self):
         return {
             'id': self.id,
-            'replaced_by': [s.mod_id for s in self.replaced_by],
-            'sources': [s.mod_id for s in self.replaced_by],
+            'replaced_by': unique([s.mod_id for s in self.replaced_by]),
+            'sources': unique([s.mod_id for s in self.sources]),
             'content': [c.to_json() for c in self.content]
         }
 
@@ -95,11 +107,12 @@ class Tag:
         tag = Tag(json['id'])
         tag.sources = {sources[x] for x in json['sources']}
         tag.replaced_by = {sources[x] for x in json['replaced_by']}
+        tag.content = [TagEntry.from_json(x, sources) for x in json['content']]
         return tag
 
 
 class TagContainer:
-    sources: Set[TagSource]
+    sources: Dict[str, TagSource]
     items: Dict[str, Tag]
     blocks: Dict[str, Tag]
     fluids: Dict[str, Tag]
@@ -116,7 +129,7 @@ class TagContainer:
         self.game_events = {}
 
     def add_tag(self, tag_type: str, source: TagSource, tag_id: str, tag_json: Dict):
-        self.sources.add(source)
+        self.sources[source.mod_id] = source
 
         tag_dict: Dict[str, Tag] = self.__getattribute__(tag_type)
 
@@ -127,7 +140,7 @@ class TagContainer:
 
     def to_json(self) -> Dict:
         return {
-            'sources': {source.mod_id: source.to_json() for source in self.sources},
+            'sources': {source.mod_id: source.to_json() for source in self.sources.values()},
             'items': [x.to_json() for x in self.items.values()],
             'blocks': [x.to_json() for x in self.blocks.values()],
             'fluids': [x.to_json() for x in self.fluids.values()],
@@ -138,13 +151,12 @@ class TagContainer:
     @classmethod
     def from_json(cls, json):
         tags = TagContainer()
-        tags.sources = {TagSource.from_json(x) for x in json['sources'].values()}
-        sources = {s.mod_id: s for s in tags.sources}
+        tags.sources = {key:TagSource.from_json(x) for key, x in json['sources'].items()}
 
         def load_tags(key):
             if key not in json:
                 json[key] = []
-            tag_list = [Tag.from_json(x, sources) for x in json[key]]
+            tag_list = [Tag.from_json(x, tags.sources) for x in json[key]]
             return {t.id: t for t in tag_list}
 
         tags.items = load_tags('items')

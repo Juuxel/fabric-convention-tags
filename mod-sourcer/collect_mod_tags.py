@@ -44,7 +44,7 @@ def pull_mod_tags(mod_path: Path, tags: TagContainer):
         mod_id = fabric_mod_info['id']
         mod_name = fabric_mod_info['name']
         mod_version = fabric_mod_info['version']
-        mod_url = fabric_mod_info.get('contact', {}).get('homepage', None)
+        mod_url = fabric_mod_info.get('contact', {}).get('homepage', 'None')
 
         tag_source = TagSource(mod_id, mod_name, mod_version, mod_url)
 
